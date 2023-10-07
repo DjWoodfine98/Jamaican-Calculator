@@ -1,0 +1,44 @@
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   margin: 0;
+   background: linear-gradient(90deg, #00A859 33%, #FFD100 34%, #FFD100 66%, #ED2939 67%); /* The national colors of Jamaica */
+   color: white;
+}
+
+.calculator {
+   background-color: #FFD100; /* As yellow as the shining sun */
+   border-radius: 10px;
+   padding: 20px;
+   text-align: right;
+   width: 300px;
+}
+
+.display {
+   font-size: 1.5em;
+   margin-bottom: 10px;
+   padding: 10px;
+   border: 1px solid #ecf0f1;
+   border-radius: 5px;
+   background-color: #00A859; /* Mirroring the greenery of the land of wood */
+}
+
+.buttons {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+}
+
+button {
+   font-size: 1.2em;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #ED2939; /* For the blood beating in the body */
+}
